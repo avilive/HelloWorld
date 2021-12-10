@@ -7,11 +7,13 @@ project(ip_filter)
 #install(TARGETS ip_filter)
 
 add_subdirectory(libs)
+
+add_executable(${PROJECT_NAME} ip_filter_main.cpp)
 #add_subdirectory(main)
 ###############
-#target_link_libraries(${PROJECT_NAME}
-#    sub::lib1
-#)
+target_link_libraries(${PROJECT_NAME}
+    sub::lib1
+)
 ###############
 #enable_testing()
 #add_test(NAME ip_filter COMMAND ip_filter)
