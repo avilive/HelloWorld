@@ -13,5 +13,5 @@ add_subdirectory(main)
 #    sub::lib1
 #)
 ###############
-enable_testing()
-add_test(NAME ip_filter COMMAND ip_filter)
+#enable_testing()
+#add_test(NAME ip_filter COMMAND ip_filter)
