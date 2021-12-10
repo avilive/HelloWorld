@@ -6,7 +6,7 @@ set(SOURCES
     main.cpp 
 )
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main_ip_filter.cpp)
 
 add_subdirectory(libs)
 add_subdirectory (main)
