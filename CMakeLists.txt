@@ -2,14 +2,13 @@ cmake_minimum_required(VERSION 3.16)
 
 project(ip_filter)
 
-#add_executable(ip_filter ip_filter_main.cpp)
+add_executable(ip_filter ip_filter_main.cpp)
 
 #install(TARGETS ip_filter)
 
 #add_subdirectory(libs)
 #add_subdirectory(main)
 
-add_executable(${PROJECT_NAME} ip_filter_main.cpp)
 
 ###############
 #target_link_libraries(${PROJECT_NAME}
