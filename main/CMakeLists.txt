@@ -11,10 +11,11 @@ project ("main")
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-#target_link_libraries(MyApp libs)
-target_link_libraries(${PROJECT_NAME}
-    sub::lib1
-)
+
+
+#target_link_libraries(${PROJECT_NAME}
+#    sub::lib1
+#)
 # TODO: Add tests and install targets if needed.
 #set_target_properties(${PROJECT_NAME} PROPERTIES
 #    CXX_STANDARD 14
