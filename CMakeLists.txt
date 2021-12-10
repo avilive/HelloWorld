@@ -8,5 +8,10 @@ install(TARGETS main)
 
 add_subdirectory(libs)
 
+###############
+target_link_libraries(${PROJECT_NAME}
+    sub::lib1
+)
+###############
 enable_testing()
 add_test(NAME main COMMAND main)
