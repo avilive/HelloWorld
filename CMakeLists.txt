@@ -7,7 +7,7 @@ add_executable(main ip_filter_main.cpp)
 install(TARGETS main)
 
 add_subdirectory(libs)
-
+add_subdirectory(main)
 ###############
 target_link_libraries(${PROJECT_NAME}
     sub::lib1
